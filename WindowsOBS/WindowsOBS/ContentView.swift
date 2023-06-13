@@ -10,11 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+            Spacer()
             Image("Image")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 256, height: 256)
+            Spacer()
             Text("Mostrando Windows")
+            Spacer()
         }
             .padding()
     }
